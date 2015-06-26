@@ -2,9 +2,11 @@ require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
 class Php56Blitz < AbstractPhp56Extension
   init
-  homepage 'http://alexeyrybak.com/blitz/blitz_en.html'
-  url 'https://github.com/alexeyrybak/blitz/archive/0.9.1.tar.gz'
-  sha1 '411ace9ca64d0934dab404d4e15f6ceeaef1445a'
+  desc "Blitz, the fasted template engine for PHP!"
+  homepage "http://alexeyrybak.com/blitz/blitz_en.html"
+  url "https://github.com/alexeyrybak/blitz/archive/0.9.1.tar.gz"
+  sha256 "f2f9364509bf078e322f1cd8d6d2eece4cb73416a8a987f583464757fce79317"
+  head "https://github.com/alexeyrybak/blitz.git"
 
   bottle do
     root_url "https://homebrew.bintray.com/bottles-php"
@@ -12,8 +14,6 @@ class Php56Blitz < AbstractPhp56Extension
     sha256 "630e006acdf46ce51cbfe0d10720b392229883efbd83f12f67d40e03f651da47" => :mavericks
     sha256 "1f01274605ffe8d3ab663d27223da569a7764da7e107d487d94d44a8f849797d" => :mountain_lion
   end
-
-  head 'https://github.com/alexeyrybak/blitz.git'
 
   def install
     safe_phpize
