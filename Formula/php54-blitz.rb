@@ -51,6 +51,6 @@ class Php54Blitz < AbstractPhp54Extension
   end
 
   test do
-      # TODO
+    # TODO
   end
 end
