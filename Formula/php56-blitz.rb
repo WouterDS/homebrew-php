@@ -49,4 +49,8 @@ class Php56Blitz < AbstractPhp56Extension
       blitz.warn_context_duplicates=0
     EOS
   end
+
+  test do
+      # TODO
+  end
 end
