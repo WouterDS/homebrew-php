@@ -3,8 +3,8 @@ require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 class Php54Blitz < AbstractPhp54Extension
   init
   homepage 'http://alexeyrybak.com/blitz/blitz_en.html'
-  url 'https://github.com/alexeyrybak/blitz/archive/v0.8.18.tar.gz'
-  sha1 'c51233a241943faf74c6d28622277ff26d299cb8'
+  url 'https://github.com/alexeyrybak/blitz/archive/0.9.1.tar.gz'
+  sha1 '411ace9ca64d0934dab404d4e15f6ceeaef1445a'
 
   bottle do
     root_url "https://homebrew.bintray.com/bottles-php"
